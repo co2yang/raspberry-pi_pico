@@ -1,4 +1,4 @@
-from machine import Pin, Timer
+from machine import Pin, Timer  
 
 led = Pin("LED", Pin.OUT)
 tim = Timer()
