@@ -3,4 +3,4 @@
 WIFI_SSID = "F602-307-wifi"
 WIFI_PASSWORD = "raspberry"
 
-192.168.137.124 
+raspberry IP:192.168.137.124 
