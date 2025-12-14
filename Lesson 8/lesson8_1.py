@@ -1,5 +1,9 @@
 from machine import Pin
+from time import sleep
 
 led_pin = 15
-led = pin(led_pin, Pin.OUT)
-led.on()
+led = Pin(led_pin, Pin.OUT)
+
+while(True):
+    led.toggle()
+    sleep(0.5)
