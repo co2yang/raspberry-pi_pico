@@ -1,6 +1,6 @@
 from machine import Pin, Timer  
 
-led = Pin("LED", Pin.OUT)
+led = Pin(15, Pin.OUT)
 tim = Timer()
 def tick(timer):
     global led
